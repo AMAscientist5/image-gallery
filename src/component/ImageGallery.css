@@ -1,0 +1,114 @@
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  margin: 10px auto;
+  max-width: 100%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.gallery .pics {
+  -webkit-transition: all 350ms ease;
+  transition: all 350ms ease;
+  cursor: pointer;
+  position: relative;
+  transition: transform 0.3s;
+}
+.gallery .pics:hover {
+  filter: opacity(0.5);
+}
+.gallery .pics:hover {
+  filter: opacity(0.5);
+}
+.gallery .pic {
+  filter: opacity(0.6);
+}
+
+.delete-button {
+  color: red;
+  cursor: pointer;
+}
+
+.checkbox {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 24px;
+  color: #00f;
+  background-color: #fff;
+  border: 1px solid #00f;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.check {
+  font-size: 24px;
+  /* color: #00f; */
+  color: #fff;
+  background-color: #00f;
+  /* background-color: #fff; */
+  border: 1px solid #00f;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  /* font-size: 24px;
+  background-color: #00f;
+  color: #fff;
+  border: 1px solid #00f;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s; */
+}
+
+.selectPara {
+  margin-right: 5px;
+}
+
+.selectFile {
+  display: flex;
+  align-items: center;
+}
+.selectAndDelete {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.checkbox.selected {
+  background-color: #00f;
+  color: #fff;
+}
+
+@media (max-width: 991px) {
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 480px) {
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    -webkit-column-width: 100%;
+    -moz-column-width: 100%;
+    column-width: 100%;
+  }
+}
