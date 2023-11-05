@@ -1,0 +1,11 @@
+/* Apply a gradient effect to text */
+.text-gradient {
+  background-image: linear-gradient(
+    to right,
+    red,
+    #47bffb
+  ); /* Create a horizontal gradient from red to #47bffb (light blue) */
+  -webkit-background-clip: text; /* Clip the background to the text (Webkit browsers) */
+  background-clip: text; /* Clip the background to the text (standard) */
+  color: transparent; /* Make the text color transparent, revealing the gradient background */
+}

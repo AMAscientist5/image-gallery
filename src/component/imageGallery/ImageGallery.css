@@ -1,3 +1,4 @@
+/* Styles for the image gallery grid */
 .gallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -10,6 +11,7 @@
   padding: 20px;
 }
 
+/* Styles for gallery images */
 .gallery .pics {
   -webkit-transition: all 350ms ease;
   transition: all 350ms ease;
@@ -17,21 +19,24 @@
   position: relative;
   transition: transform 0.3s;
 }
+
+/* Hover effect on gallery images */
 .gallery .pics:hover {
   filter: opacity(0.5);
 }
-.gallery .pics:hover {
-  filter: opacity(0.5);
-}
+
+/* Styles for selected images */
 .gallery .pic {
   filter: opacity(0.6);
 }
 
+/* Styles for delete button */
 .delete-button {
   color: red;
   cursor: pointer;
 }
 
+/* Styles for checkbox element */
 .checkbox {
   position: absolute;
   top: 5px;
@@ -49,12 +54,11 @@
   cursor: pointer;
   transition: background-color 0.3s;
 }
+/* Styles for checked state of checkbox */
 .check {
   font-size: 24px;
-  /* color: #00f; */
   color: #fff;
   background-color: #00f;
-  /* background-color: #fff; */
   border: 1px solid #00f;
   width: 25px;
   height: 25px;
@@ -64,20 +68,9 @@
   border-radius: 50%;
   cursor: pointer;
   transition: background-color 0.3s;
-  /* font-size: 24px;
-  background-color: #00f;
-  color: #fff;
-  border: 1px solid #00f;
-  width: 25px;
-  height: 25px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  cursor: pointer;
-  transition: background-color 0.3s; */
 }
 
+/* Styles for various UI elements */
 .selectPara {
   margin-right: 5px;
 }
@@ -92,11 +85,24 @@
   justify-content: space-between;
 }
 
+/* Styles for selected checkboxes */
 .checkbox.selected {
   background-color: #00f;
   color: #fff;
 }
 
+/* Styles for the upload area */
+.upload-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  border: 2px dashed #000;
+}
+/* Media queries for responsive layout */
 @media (max-width: 991px) {
   .gallery {
     display: grid;

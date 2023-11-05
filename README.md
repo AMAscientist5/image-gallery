@@ -1,8 +1,42 @@
-# React + Vite
+## Image Gallery
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the Awesome Image Gallery Website! This website offers a range of features, including a dynamic image grid with drag-and-drop reordering, multi-image selection and deletion, theme customization, powerful search and filtering capabilities, an engaging auto-write animation, and full responsiveness on various devices.
 
-Currently, two official plugins are available:
+For an easy setup, this guide will walk you through the project's installation process. You'll clone the project, install dependencies, and configure it to get started quickly.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technology and Library
+
+- React Js
+- Tailwind
+- daisyUI
+- react-spinners, react-simple-typewriter, react-icons, react-hot-toast,@emotion/react, @emotion/styled
+
+## Installation Steps
+
+1.Clone the project
+
+```bash
+  git clone https://github.com/AMAscientist5/pc-parts.git
+```
+
+2.Install project dependencies
+
+```bash
+  npm install
+```
+
+3.Now run the project
+
+```bash
+  npm run dev
+```
+
+That's it! You've successfully set up the Image Gallery project. You're now ready to dive into exploring and working with the codebase.
+
+Happy coding!
+
+## 🔗 Links
+
+[![portfolio](https://img.shields.io/badge/Livesite-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://pc-builder-client-amascientist5.vercel.app/)
+
+[![portfolio](https://img.shields.io/badge/Github-client-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/AMAscientist5/pc-parts)

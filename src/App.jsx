@@ -1,44 +1,23 @@
-import { useState } from "react";
-import "./App.css";
-import Footer from "./component/Footer";
-import ImageGallery from "./component/ImageGallery";
-import { Typewriter } from "react-simple-typewriter";
-function App() {
-  const handleType = (count) => {
-    console.log(count);
-  };
+import Footer from "./component/shared/Footer";
+import ImageGallery from "./component/imageGallery/ImageGallery";
+import TypeWriter from "./component/typeWriter/TypeWriter";
+import ThemeToggle from "./component/theme/ThemeToggle";
+import { Toaster } from "react-hot-toast";
+import { useTheme } from "./hooks/useHook";
 
-  const handleDone = () => {
-    console.log(`Done after 5 loops!`);
-  };
+function App() {
+  // custom hook manage the theme state
+  const { theme, toggleTheme } = useTheme();
 
   return (
     <>
-      <div className="text-center">
-        <h1
-          style={{ color: "#A8A8A8" }}
-          className="text-3xl mb-1 font-semibold"
-        >
-          <span>
-            <Typewriter
-              words={["Image Gallery"]}
-              loop={5}
-              cursor
-              cursorStyle="|"
-              typeSpeed={70}
-              deleteSpeed={50}
-              delaySpeed={1000}
-              onLoopDone={handleDone}
-              onType={handleType}
-            />
-          </span>
-        </h1>
-
-        <hr className="m-0 mx-auto w-44 border-t-2 border-gray-300" />
+      <div className={theme ? "bg-black text-white" : ""}>
+        <ThemeToggle theme={theme} toggleTheme={toggleTheme} />
+        <TypeWriter />
+        <Toaster />
+        <ImageGallery />
+        <Footer />
       </div>
-
-      <ImageGallery />
-      <Footer></Footer>
     </>
   );
 }
