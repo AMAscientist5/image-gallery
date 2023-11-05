@@ -39,4 +39,4 @@ Happy coding!
 
 [![portfolio](https://img.shields.io/badge/Livesite-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://6546f8f462392e733a9ab55e--heroic-zuccutto-e33507.netlify.app/)
 
-[![portfolio](https://img.shields.io/badge/Github-client-000?style=for-the-badge&logo=ko-fi&logoColor=white)](git clone https://github.com/AMAscientist5/image-gallery.git)
+[![portfolio](https://img.shields.io/badge/Github-client-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/AMAscientist5/image-gallery.git)
