@@ -16,7 +16,7 @@ For an easy setup, this guide will walk you through the project's installation p
 1.Clone the project
 
 ```bash
-  git clone https://github.com/AMAscientist5/pc-parts.git
+  git clone https://github.com/AMAscientist5/image-gallery.git
 ```
 
 2.Install project dependencies
@@ -39,4 +39,4 @@ Happy coding!
 
 [![portfolio](https://img.shields.io/badge/Livesite-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://pc-builder-client-amascientist5.vercel.app/)
 
-[![portfolio](https://img.shields.io/badge/Github-client-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/AMAscientist5/pc-parts)
+<!-- [![portfolio](https://img.shields.io/badge/Github-client-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/AMAscientist5/pc-parts) -->
